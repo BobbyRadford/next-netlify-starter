@@ -3,7 +3,7 @@ import { RowndProvider } from '@rownd/react'
 
 function Application({ Component, pageProps }) {
   return (
-    <RowndProvider appKey='1335b068-d0ea-4c23-bbd8-8351ff4d4094'>
+    <RowndProvider appKey='key_t7oxljlghf1h4zb7ey37f5cx' apiUrl='https://api.us-east-2.dev.rownd.io'>
       <Component {...pageProps} />
     </RowndProvider>
   )
